@@ -1,0 +1,637 @@
+@charset "UTF-8"
+
+@font-face
+  font-family: "dlvicons"
+  src: url("./../fonts/icons/dlvicons.eot")
+  src: url("./../fonts/icons/dlvicons.eot?#iefix") format("embedded-opentype"), url("./../fonts/icons/dlvicons.woff") format("woff"), url("./../fonts/icons/dlvicons.ttf") format("truetype"), url("./../fonts/icons/dlvicons.svg#dlvicons") format("svg")
+  font-weight: normal
+  font-style: normal
+
+[data-icon]:before
+  font-family: "dlvicons" !important
+  content: attr(data-icon)
+  font-style: normal !important
+  font-weight: normal !important
+  font-variant: normal !important
+  text-transform: none !important
+  // speak: none
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+[class^="ico-"]:before, [class*=" ico-"]:before
+  font-family: "dlvicons" !important
+  font-style: normal !important
+  font-weight: normal !important
+  font-variant: normal !important
+  text-transform: none !important
+  // speak: none
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.icon
+  padding: 0
+  font-size: 1.6em
+  vertical-align: -0.34em
+
+.icon-box
+  .icon
+    font-size: 1.4em
+    vertical-align: middle
+
+.icon-standard
+  overflow: hidden
+  height: 30px
+  width: 32px
+  line-height: 40px
+  display: inline-block
+  vertical-align: middle
+  .icon
+    font-size: 1.8em
+    width: 32px
+    display: block
+
+.ico-lg
+  font-size: 1.33333em
+  line-height: 0.75em
+  vertical-align: -.0667em
+
+.ico-xs
+  font-size: .75em
+
+.ico-sm
+  font-size: .875em
+
+.ico-1x
+  font-size: 1em
+
+.ico-2x
+  font-size: 2em
+
+.ico-3x
+  font-size: 3em
+
+.ico-4x
+  font-size: 4em
+
+.ico-5x
+  font-size: 5em
+
+.ico-6x
+  font-size: 6em
+
+.ico-7x
+  font-size: 7em
+
+.ico-8x
+  font-size: 8em
+
+.ico-9x
+  font-size: 9em
+
+.ico-10x
+  font-size: 10em
+
+.ico-fw
+  text-align: center
+  width: 1.25em
+
+.ico-ul
+  list-style-type: none
+  margin-left: 2.5em
+  padding-left: 0
+  > li
+    position: relative
+
+.ico-li
+  left: -2em
+  position: absolute
+  text-align: center
+  width: 2em
+  line-height: inherit
+
+.ico-angle-right:before
+  content: "\63"
+
+.ico-trash-alt:before
+  content: "\64"
+
+.ico-eye:before
+  content: "\65"
+
+.ico-plus-circle-alt:before
+  content: "\66"
+
+.ico-angular:before
+  content: "\67"
+
+.ico-flushed:before
+  content: "\68"
+
+.ico-arrow-down:before
+  content: "\69"
+
+.ico-arrow-left:before
+  content: "\6a"
+
+.ico-arrow-right:before
+  content: "\6b"
+
+.ico-chart-bar:before
+  content: "\6c"
+
+.ico-chart-line:before
+  content: "\6d"
+
+.ico-credit-card:before
+  content: "\6e"
+
+.ico-ellipsis-v:before
+  content: "\6f"
+
+.ico-ellipsis-h:before
+  content: "\70"
+
+.ico-eye-slash:before
+  content: "\71"
+
+.ico-camera:before
+  content: "\72"
+
+.ico-redo:before
+  content: "\73"
+
+.ico-angle-up:before
+  content: "\74"
+
+.ico-bell:before
+  content: "\75"
+
+.ico-calendar-alt:before
+  content: "\76"
+
+.ico-calendar-day:before
+  content: "\77"
+
+.ico-pen:before
+  content: "\78"
+
+.ico-arrow-up:before
+  content: "\79"
+
+.ico-ban:before
+  content: "\7a"
+
+.ico-bars:before
+  content: "\41"
+
+.ico-check:before
+  content: "\42"
+
+.ico-briefcase:before
+  content: "\43"
+
+.ico-sign-in:before
+  content: "\44"
+
+.ico-sign-out:before
+  content: "\45"
+
+.ico-times:before
+  content: "\46"
+
+.ico-plus-circle:before
+  content: "\47"
+
+.ico-angle-down:before
+  content: "\61"
+
+.ico-angle-left:before
+  content: "\62"
+
+.ico-angle-right-1:before
+  content: "\48"
+
+.ico-angle-up-1:before
+  content: "\49"
+
+.ico-angular-1:before
+  content: "\4a"
+
+.ico-ap-logo:before
+  content: "\4b"
+
+.ico-arrow-down-1:before
+  content: "\4c"
+
+.ico-arrow-left-1:before
+  content: "\4d"
+
+.ico-arrow-right-1:before
+  content: "\4e"
+
+.ico-arrow-up-1:before
+  content: "\4f"
+
+.ico-asterix:before
+  content: "\50"
+
+.ico-baby:before
+  content: "\51"
+
+.ico-bag:before
+  content: "\52"
+
+.ico-bars-1:before
+  content: "\53"
+
+.ico-behance:before
+  content: "\54"
+
+.ico-bell-1:before
+  content: "\55"
+
+.ico-bell-on:before
+  content: "\56"
+
+.ico-bell-slash:before
+  content: "\57"
+
+.ico-bitcoin:before
+  content: "\58"
+
+.ico-brain-side:before
+  content: "\59"
+
+.ico-briefcase-1:before
+  content: "\5a"
+
+.ico-bullhorn:before
+  content: "\30"
+
+.ico-calendar:before
+  content: "\31"
+
+.ico-calendar-day-1:before
+  content: "\32"
+
+.ico-camera-1:before
+  content: "\33"
+
+.ico-cart:before
+  content: "\34"
+
+.ico-cart-arrow-down:before
+  content: "\35"
+
+.ico-chart-bars:before
+  content: "\36"
+
+.ico-chart-line-1:before
+  content: "\37"
+
+.ico-chart-pie:before
+  content: "\38"
+
+.ico-check-1:before
+  content: "\39"
+
+.ico-chevron-down:before
+  content: "\21"
+
+.ico-chevron-left:before
+  content: "\22"
+
+.ico-chevron-left-stop:before
+  content: "\23"
+
+.ico-chevron-right:before
+  content: "\24"
+
+.ico-chevron-right-stop:before
+  content: "\25"
+
+.ico-chevron-up:before
+  content: "\26"
+
+.ico-chrome:before
+  content: "\27"
+
+.ico-circle-fill:before
+  content: "\28"
+
+.ico-circle-outline:before
+  content: "\29"
+
+.ico-clip:before
+  content: "\2a"
+
+.ico-clock:before
+  content: "\2b"
+
+.ico-cloud-download:before
+  content: "\2c"
+
+.ico-cloud-upload:before
+  content: "\2d"
+
+.ico-code:before
+  content: "\2e"
+
+.ico-coffe:before
+  content: "\2f"
+
+.ico-coin:before
+  content: "\3a"
+
+.ico-coins:before
+  content: "\3b"
+
+.ico-comment:before
+  content: "\3c"
+
+.ico-credit-card-1:before
+  content: "\3d"
+
+.ico-css3:before
+  content: "\3e"
+
+.ico-docker:before
+  content: "\3f"
+
+.ico-dollar-sign:before
+  content: "\40"
+
+.ico-dolly:before
+  content: "\5b"
+
+.ico-donate:before
+  content: "\5d"
+
+.ico-edge:before
+  content: "\5e"
+
+.ico-ellipsis-h-1:before
+  content: "\5f"
+
+.ico-ellipsis-v-1:before
+  content: "\60"
+
+.ico-envelope:before
+  content: "\7b"
+
+.ico-esco:before
+  content: "\7c"
+
+.ico-ethereum:before
+  content: "\7d"
+
+.ico-external-link-in:before
+  content: "\7e"
+
+.ico-external-link-out:before
+  content: "\5c"
+
+.ico-eye-1:before
+  content: "\e000"
+
+.ico-eye-shut:before
+  content: "\e001"
+
+.ico-facebook:before
+  content: "\e002"
+
+.ico-fb-messenger:before
+  content: "\e003"
+
+.ico-figma:before
+  content: "\e004"
+
+.ico-file:before
+  content: "\e005"
+
+.ico-file-invoice:before
+  content: "\e006"
+
+.ico-fire:before
+  content: "\e007"
+
+.ico-firefox:before
+  content: "\e008"
+
+.ico-folder-fill:before
+  content: "\e009"
+
+.ico-fullscreen:before
+  content: "\e00a"
+
+.ico-gear:before
+  content: "\e00b"
+
+.ico-git:before
+  content: "\e00c"
+
+.ico-git-logo:before
+  content: "\e00d"
+
+.ico-github:before
+  content: "\e00e"
+
+.ico-gitlab:before
+  content: "\e00f"
+
+.ico-hand-holding-usd:before
+  content: "\e010"
+
+.ico-hashtag:before
+  content: "\e011"
+
+.ico-heart-fill:before
+  content: "\e012"
+
+.ico-heart-outline:before
+  content: "\e013"
+
+.ico-history:before
+  content: "\e014"
+
+.ico-home:before
+  content: "\e015"
+
+.ico-html5:before
+  content: "\e016"
+
+.ico-image:before
+  content: "\e017"
+
+.ico-info-circle:before
+  content: "\e018"
+
+.ico-instagram:before
+  content: "\e019"
+
+.ico-js:before
+  content: "\e01a"
+
+.ico-key:before
+  content: "\e01b"
+
+.ico-laptop-tablet:before
+  content: "\e01c"
+
+.ico-light-bulb-on:before
+  content: "\e01d"
+
+.ico-line-variable:before
+  content: "\e01e"
+
+.ico-linkedin:before
+  content: "\e01f"
+
+.ico-login:before
+  content: "\e020"
+
+.ico-logout:before
+  content: "\e021"
+
+.ico-maxirest:before
+  content: "\e022"
+
+.ico-mobile:before
+  content: "\e023"
+
+.ico-money-bill:before
+  content: "\e024"
+
+.ico-mouse:before
+  content: "\e025"
+
+.ico-node-js:before
+  content: "\e026"
+
+.ico-npm:before
+  content: "\e027"
+
+.ico-opera:before
+  content: "\e028"
+
+.ico-pen-1:before
+  content: "\e029"
+
+.ico-php:before
+  content: "\e02a"
+
+.ico-plus-fill:before
+  content: "\e02b"
+
+.ico-plus-outline:before
+  content: "\e02c"
+
+.ico-pocket:before
+  content: "\e02d"
+
+.ico-pointer:before
+  content: "\e02e"
+
+.ico-prohibited:before
+  content: "\e02f"
+
+.ico-qr-code:before
+  content: "\e030"
+
+.ico-reactjs:before
+  content: "\e031"
+
+.ico-redo-1:before
+  content: "\e032"
+
+.ico-refresh:before
+  content: "\e033"
+
+.ico-sass:before
+  content: "\e034"
+
+.ico-save:before
+  content: "\e035"
+
+.ico-settings-h:before
+  content: "\e036"
+
+.ico-settings-v:before
+  content: "\e037"
+
+.ico-signal:before
+  content: "\e038"
+
+.ico-skull:before
+  content: "\e039"
+
+.ico-smile:before
+  content: "\e03a"
+
+.ico-star-fill:before
+  content: "\e03b"
+
+.ico-star-outline:before
+  content: "\e03c"
+
+.ico-store:before
+  content: "\e03d"
+
+.ico-store-alt:before
+  content: "\e03e"
+
+.ico-stunned:before
+  content: "\e03f"
+
+.ico-t-shirt:before
+  content: "\e040"
+
+.ico-tag:before
+  content: "\e041"
+
+.ico-tags:before
+  content: "\e042"
+
+.ico-telegram:before
+  content: "\e043"
+
+.ico-times-1:before
+  content: "\e044"
+
+.ico-trash:before
+  content: "\e045"
+
+.ico-twitter:before
+  content: "\e046"
+
+.ico-unicorn:before
+  content: "\e047"
+
+.ico-usd-circle:before
+  content: "\e048"
+
+.ico-user:before
+  content: "\e049"
+
+.ico-user-astronaut:before
+  content: "\e04a"
+
+.ico-user-robot:before
+  content: "\e04b"
+
+.ico-vimeo:before
+  content: "\e04c"
+
+.ico-wallet:before
+  content: "\e04d"
+
+.ico-whatsapp:before
+  content: "\e04e"
+
+.ico-youtube:before
+  content: "\e04f"
+
+.ico-zoom:before
+  content: "\e050"
